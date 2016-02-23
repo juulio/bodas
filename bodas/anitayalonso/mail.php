@@ -7,7 +7,7 @@ $message=$HTTP_POST_VARS['message'];
 $montoTotal=$HTTP_POST_VARS['monto'];
 $regalosSelecionados=$HTTP_POST_VARS['regalos'];
 
-$emailContent="Nombre(s): ".$name."\n\nEmail: ".$email."\n\nRegalos:\n".$regalosSelecionados."\nTotal $".$montoTotal."\n\nMensaje:\n".$message;
+$emailContent="Nombre(s): ".$name."\n\nEmail: ".$email."\n\nRegalos:\n".$regalosSelecionados."\n\nTotal $".$montoTotal."\n\nMensaje:\n".$message;
 
 /* Guests E-mail 
 mail($to, $subject, $message, $headers);
