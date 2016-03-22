@@ -41,14 +41,15 @@ a {
 /*---------------------------------------------------------------------------------
  * ------------------------------------------------------------------------------*/
 body {
-    color: #999999;
+  color: #999999;
 	border-top: solid 5px #5CB3FF;
-	background: transparent url(../img/bg_texture.png) left top repeat;
+	/*background: transparent url(../img/bg_texture.png) left top repeat;*/
+	background: transparent url(../img/01.png) left top repeat;
 }
 
 #wrapper {
-	width: 1000px;
-	min-height: 500px;
+	width: 600px;
+	min-height: 800px;
 	margin: 30px auto;
 }
 
