@@ -43,8 +43,8 @@ a {
 body {
   color: #999999;
 	border-top: solid 5px #5CB3FF;
-	/*background: transparent url(../img/bg_texture.png) left top repeat;*/
-	background: transparent url(../img/01.png) left top repeat;
+	background: transparent url(../img/patterns/pattern_dirty_texture.png) left top repeat;
+	/*background: transparent url(../img/patterns/pattern_swirl.png) left top repeat;*/
 }
 
 #wrapper {
