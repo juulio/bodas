@@ -35,32 +35,32 @@ table {
 }
 
 a {
-    color:#5CB3FF;
+  color:#FFF;
 	text-decoration: none;
+}
+
+.clear {
+	clear: both;
 }
 /*---------------------------------------------------------------------------------
  * ------------------------------------------------------------------------------*/
 body {
-  color: #999999;
+  color: #FFF;
 	border-top: solid 5px #5CB3FF;
-	background: transparent url(../img/patterns/pattern_no_name.png) left top repeat;
-	/*background: transparent url(../img/patterns/pattern_swirl.png) left top repeat;*/
+	/*background: transparent url(../img/patterns/pattern_no_name.png) left top repeat;*/
+	background: transparent url(../img/patterns/wild_flowers.png) left top repeat;
 }
 
 #wrapper {
-	width: 600px;
+	width: 95%;
 	min-height: 800px;
 	margin: 30px auto;
 }
 
 h1 {
 	width: 100%;
-	color: #5CB3FF;
+	color: #FFF;
 	border-bottom: solid 1px #e3dfd8;
-}
-
-footer {
-	color: #999999;
 }
 
 footer {
@@ -69,10 +69,38 @@ footer {
     border-top: solid 1px #e3dfd8;
 }
 
-h1,h2{font-weight: bold;font-family: "Lucida Sans Unicode", "Lucida Grande", sans-serif;}
-
-h1{font-size: 350%;
-	/*font-family: 'Bangers', cursive;*/
+h1,h2{
+	font-weight: bold;
+	font-family: "Lucida Sans Unicode", "Lucida Grande", sans-serif;
 }
 
-h2{font-size: 200%;margin: 35px 0;}
+h1{
+	font-size: 350%;
+}
+
+h2{
+	font-size: 130%;
+	margin: 35px 0;
+}
+
+.portafolio {
+
+}
+
+.portafolio a {
+	width: 40%;
+	float: left;
+	display: block;
+	padding: 40px 0;
+	margin-right: 9%;
+	text-align: center;
+	margin-bottom: 30px;
+	border: solid 1px #fff;
+}
+
+@media (max-width: 768px) {
+	.portafolio a {
+		width: 100%;
+		float: none;
+	}
+}
