@@ -9,7 +9,6 @@ html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockq
 	border: 0;
 	font-size: 100%;
 	font: inherit;
-	font-family: Arial, Helvetica, sans-serif;
 	vertical-align: baseline;
 }
 /* HTML5 display-role reset for older browsers */
@@ -74,6 +73,7 @@ a {
 body {
   color: #454545;
 	background-color: #FFF;
+	font-family: 'GothamExtraLight', Arial, Helvetica, sans-serif;
 	/*background: transparent url(../img/patterns/pattern_no_name.png) left top repeat;*/
 	/*background: transparent url(../img/patterns/wild_flowers.png) left top repeat;*/
 }
@@ -85,14 +85,12 @@ a {
 
 #wrapper {
 	width: 95%;
-	min-height: 800px;
 	margin: 30px auto;
 }
 
 h1 {
 	width: 100%;
 	font-size: 350%;
-	font-family: 'GothamExtraLight';
 	border-bottom: solid 1px #e3dfd8;
 }
 
