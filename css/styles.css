@@ -112,11 +112,21 @@ h2{
 	width: 40%;
 	float: left;
 	display: block;
-	padding: 40px 0;
+	overflow: hidden;
 	margin-right: 9%;
 	text-align: center;
 	margin-bottom: 30px;
 	border: solid 1px #000;
+}
+
+@media (min-width: 768px) {
+	.portafolio a {
+		opacity: 0.4;
+	}
+	
+	.portafolio a:hover {
+		opacity: 1;
+	}
 }
 
 @media (max-width: 768px) {
